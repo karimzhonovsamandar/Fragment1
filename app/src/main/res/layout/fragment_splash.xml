@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashFragment"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/instagram"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from"
+        android:textSize="22sp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="#9A9393"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/facebook"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acebook"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+
+    </LinearLayout>
+</LinearLayout>
